@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Direction</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body
+    style="
+      height: 100%;
+      background: linear-gradient(to bottom, #f5efeb 0%, #d0caab 50%);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    "
+  >
+    <div style="display: flex; justify-content: center">
+      <h1
+        style="
+          font-size: 42px;
+          font-family: 'Poppins';
+          text-align: center;
+          font-style: italic;
+          margin: 0 auto;
+          color: #000000;
+        "
+      >
+        ~ One Direction ~
+      </h1>
+    </div>
+    <div
+      style="
+        display: flex-box;
+        justify-content: center;
+        background-color: #4e8657;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 20px;
+      "
+    >
+      <h2 style="font-family: 'Poppins'; padding-left: 20px">Harry Styles</h2>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          width: 960px;
+          height: 160px;
+        "
+      >
+        <p style="word-wrap: break-word; font-family: 'Poppins'">
+          Harry nació el primero de febrero de 1994. A los 16 años participó en
+          el programa The X Factor, donde se formó la banda. El nombre de 'One
+          Direction' se le ocurrió a él. Cuando la banda se separó, decidió
+          incursionar en el mundo de la actuación con la película 'Dunkirk'. Con
+          su tercer álbum como solista alcanzó 460 mil unidades vendidas, y fue
+          el segundo álbum más escuchado en 2022 en Spotify.
+        </p>
+      </div>
+      <div style="display: flex; justify-content: space-between">
+        <button
+          type="button"
+          onclick="changeImage()"
+          style="border-radius: 5px; padding: 0; height: 250px"
+        >
+          <img src="1.jpeg" height="250px" style="border-radius: 5px" />
+        </button>
+        <img
+          id="demo"
+          src="h2.jpeg"
+          height="250px"
+          style="border-radius: 5px"
+        />
+        <img src="h3.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="h4.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="h5.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="h6.jpeg" height="250px" style="border-radius: 5px" />
+      </div>
+    </div>
+    <div
+      style="
+        display: flex-box;
+        justify-content: center;
+        background-color: #6666ff;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 20px;
+      "
+    >
+      <h2 style="font-family: 'Poppins'; padding-left: 20px">
+        Louis Tomlinson
+      </h2>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          width: 960px;
+          height: 160px;
+        "
+      >
+        <p style="word-wrap: break-word; font-family: 'Poppins'">
+          Louis nació el 24 de diciembre de 1991. Siempre ha tenido gran interés
+          por el futbol, por lo que compró el equipo Doncaster Rovers FC, un
+          equipo de su ciudad natal. Además, participa como jugador del equipo
+          de futbol de la UNICEF. Fue mentor de The X Factor en su décima quinta
+          temporada. Tiene su propio festival de música, en el que han
+          participado muchos artistas, como Dylan y su última edición fue en
+          Yucatán, México.
+        </p>
+      </div>
+      <div style="display: flex; justify-content: space-between">
+        <button
+          type="button"
+          onclick="changeImage2()"
+          style="border-radius: 5px; padding: 0; height: 250px"
+        >
+          <img src="2.jpeg" height="250px" style="border-radius: 5px" />
+        </button>
+        <img
+          id="demo2"
+          src="l1.jpeg"
+          height="250px"
+          style="border-radius: 5px"
+        />
+        <img src="l3.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="l4.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="l5.jpg" height="250px" style="border-radius: 5px" />
+        <img src="l6.jpg" height="250px" style="border-radius: 5px" />
+        <img src="l7.jpg" height="250px" style="border-radius: 5px" />
+      </div>
+    </div>
+    <div
+      style="
+        display: flex-box;
+        justify-content: center;
+        background-color: #caf0f8;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 20px;
+      "
+    >
+      <h2 style="font-family: 'Poppins'; padding-left: 20px">Niall Horan</h2>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          width: 960px;
+          height: 160px;
+        "
+      >
+        <p style="word-wrap: break-word; font-family: 'Poppins'">
+          Niall nació el 13 de septiembre de 1993 en Irlanda. Su primer álbum
+          'Flicker' debutó en el número 1 de Billboard 200 en Estados Unidos en
+          2017. Tiene varios premios, entre ellos el premio a 'Mejor Letra' por
+          la canción Slow Hands de los iHeart Radio Awards y 'Nuevo Artista del
+          Año' de los AMA's en 2017. Al igual que Louis, juega futbol en el
+          equipo de la UNICEF. Cuando estaban en la banda, fue el encargado de
+          enseñarle a algunos de sus compañeros a tocar la guitarra y el piano.
+        </p>
+      </div>
+      <div style="display: flex; justify-content: space-between">
+        <button
+          type="button"
+          onclick="changeImage3()"
+          style="border-radius: 5px; padding: 0; height: 250px"
+        >
+          <img src="3.jpeg" height="250px" style="border-radius: 5px" />
+        </button>
+        <img
+          id="demo3"
+          src="n2.jpeg"
+          height="250px"
+          style="border-radius: 5px"
+        />
+        <img src="n3.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="n4.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="n5.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="n6.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="n7.jpeg" height="250px" style="border-radius: 5px" />
+      </div>
+    </div>
+    <div
+      style="
+        display: flex-box;
+        justify-content: center;
+        background-color: #f35c66;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 20px;
+      "
+    >
+      <h2 style="font-family: 'Poppins'; padding-left: 20px">Liam Payne</h2>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          width: 960px;
+          height: 160px;
+        "
+      >
+        <p style="word-wrap: break-word; font-family: 'Poppins'">
+          Liam nació el 29 de agosto de 1993. Cuando tenía 14 años, participó
+          por primera vez en The X Factor, sin embargo, fue enviado a casa en la
+          primrea etapa. Dos años después, volvió a participar y fue elegido
+          para estar en la banda. Fue modelo de Hugo Boss en 2020.
+        </p>
+      </div>
+      <div style="display: flex; justify-content: space-between">
+        <button
+          type="button"
+          onclick="changeImage4()"
+          style="border-radius: 5px; padding: 0; height: 250px"
+        >
+          <img src="4.jpeg" height="250px" style="border-radius: 5px" />
+        </button>
+        <img
+          id="demo4"
+          src="li2.jpeg"
+          height="250px"
+          style="border-radius: 5px"
+        />
+        <img src="li3.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="li4.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="li5.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="li6.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="li7.jpeg" height="250px" style="border-radius: 5px" />
+      </div>
+    </div>
+    <div
+      style="
+        display: flex-box;
+        justify-content: center;
+        background-color: #ffffc9;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 20px;
+      "
+    >
+      <h2 style="font-family: 'Poppins'; padding-left: 20px">Zayn Malik</h2>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          width: 960px;
+          height: 160px;
+        "
+      >
+        <p style="word-wrap: break-word; font-family: 'Poppins'">
+          Zayn nació el 12 de enero de 1993. En 2015, tomó la deisión de salirse
+          de la banda, ya que no estaba a gusto con la administración, con la
+          música que hacía y alegó que debía cuidar su salud mental. Como
+          solista, su primer álbum alcanzo el número 1 de Billboard 200 en
+          Estados Unidos en tan solo una semana. Cuenta con 4 álbumes de
+          estudio.
+        </p>
+      </div>
+      <div style="display: flex; justify-content: space-between">
+        <button
+          type="button"
+          onclick="changeImage5()"
+          style="border-radius: 5px; padding: 0; height: 250px"
+        >
+          <img src="5.jpeg" height="250px" style="border-radius: 5px" />
+        </button>
+        <img
+          id="demo5"
+          src="z2.jpeg"
+          height="250px"
+          style="border-radius: 5px"
+        />
+        <img src="z3.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="z4.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="z5.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="z6.jpeg" height="250px" style="border-radius: 5px" />
+        <img src="z7.jpeg" height="250px" style="border-radius: 5px" />
+      </div>
+    </div>
+    <script>
+      let original = document.getElementById("demo").src;
+      function changeImage() {
+        if (document.getElementById("demo").src === original) {
+          document.getElementById("demo").src = "h1.jpeg";
+        } else {
+          document.getElementById("demo").src = original;
+        }
+      }
+      let original2 = document.getElementById("demo2").src;
+      function changeImage2() {
+        if (document.getElementById("demo2").src === original2) {
+          document.getElementById("demo2").src = "l2.jpeg";
+        } else {
+          document.getElementById("demo2").src = original2;
+        }
+      }
+      let original3 = document.getElementById("demo3").src;
+      function changeImage3() {
+        if (document.getElementById("demo3").src === original3) {
+          document.getElementById("demo3").src = "n1.jpeg";
+        } else {
+          document.getElementById("demo3").src = original3;
+        }
+      }
+      let original4 = document.getElementById("demo4").src;
+      function changeImage4() {
+        if (document.getElementById("demo4").src === original4) {
+          document.getElementById("demo4").src = "li1.jpeg";
+        } else {
+          document.getElementById("demo4").src = original4;
+        }
+      }
+      let original5 = document.getElementById("demo5").src;
+      function changeImage5() {
+        if (document.getElementById("demo5").src === original5) {
+          document.getElementById("demo5").src = "z1.jpeg";
+        } else {
+          document.getElementById("demo5").src = original5;
+        }
+      }
+    </script>
+  </body>
+</html>
